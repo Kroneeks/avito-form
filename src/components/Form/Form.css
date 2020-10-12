@@ -1,0 +1,41 @@
+form {
+    margin-top: 10px; 
+    box-sizing: border-box;
+}
+input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px;
+    font-size: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: #cccccc;
+}
+
+form input {
+    margin-bottom: 20px;
+}
+
+.form-btn {
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: #4997d0;
+    color: #fff;
+    font-size: 15px;
+    padding: 7px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 576px) {
+    form {
+        padding-right: 22px;
+        padding-left: 22px;
+        margin-bottom: 22px;
+    }
+}
